@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#2DFD35">
+
+    <TextView
+        android:id="@+id/tieude"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="#FF9800"
+        android:text="MTT61-NTU Quiz"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"></TextView>
+
+    \
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tieude"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="50dp"
+        android:text="Màn hình chính"
+        android:textSize="35dp"></TextView>
+
+    <TextView
+        android:id="@+id/txtv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="-3dp"
+        android:textColor="#FA1100"
+        android:textSize="35dp"></TextView>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_below="@+id/txtv"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/anh"></ImageView>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="153dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/img"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="63dp"
+        android:text="Quiz 1"
+        android:textSize="20dp"></Button>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="153dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/img"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="63dp"
+        android:text="Quiz 2"
+        android:textSize="20dp"></Button>
+
+
+</RelativeLayout>
