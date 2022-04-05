@@ -25,8 +25,8 @@ public class MainActivity extends AppCompatActivity {
     /* Class to hold credentials */
     class Credentials
     {
-        String name = "user";
-        String password = "123";
+        String name = "maicuongtho";
+        String password = "Cntt60ntu!";
     }
 
     boolean isValid = false;
@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
                     /* If valid */
                     else {
 
-                        Toast.makeText(MainActivity.this, "Connecting...", Toast.LENGTH_LONG).show();
+                        Toast.makeText(MainActivity.this, "User and Password is correct!", Toast.LENGTH_LONG).show();
                     }
 
                 }
